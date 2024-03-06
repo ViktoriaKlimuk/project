@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("form");e.addEventListener("submit",(function(l){l.preventDefault(),l.target;var t=e.elements.email.value,a=e.elements.password.value;if(""!==t&&""!==a){var r=l.currentTarget.elements,s=r.email,n=r.password,o={email:s.value,password:n.value};console.log(o),e.reset()}else alert("You don`t fill all the fields.")}))}();
+//# sourceMappingURL=07-form.236d3415.js.map
