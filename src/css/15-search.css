@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.search-form{
+    background-color: rgb(59, 59, 180);
+   padding: 20px;
+   display: flex;
+   justify-content: center;   
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+
+}
+input{
+    border-radius:10px 0 0 10px;
+    padding: 7.5px;
+    border-color: currentColor;
+    width: 40%;
+}
+.btnSearch{
+    border-radius:  0 10px 10px 0;
+    border-color:currentColor;
+    background-color: white;
+    box-shadow:  none;
+    margin: 0px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto
+}
+
+.photo-card {
+    width: 310px;
+    display: block;
+    box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+}
+.info {
+    display: flex;
+    gap: 14px;
+    color: black;
+    padding: 6px;
+
+}
+
+.loading{
+    width: 115px;
+    background-color: #3b3bc3;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    color: white;
+    border: currentColor;
+}
